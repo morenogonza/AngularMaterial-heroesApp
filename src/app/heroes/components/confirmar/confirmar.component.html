@@ -1,0 +1,12 @@
+<h3 style="text-align: center">Eliminar</h3>
+<hr />
+<div>
+  <p>Está por eliminar {{ data.superhero }}</p>
+  <p>¿Desea continuar?</p>
+  <br />
+  <div fxLayout="row">
+    <button mat-flat-button color="warn" (click)="borrar()">Aceptar</button>
+    <div class="spacer"></div>
+    <button mat-flat-button (click)="cancelar()">Cancelar</button>
+  </div>
+</div>
